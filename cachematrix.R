@@ -1,8 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Identical to the example makeVector except a matrix is used. Its job is to set and get the value of the vector then 
-## set and get the value of the inverse
+## Identical to the example makeVector except a matrix is used instead of a vector 
+## and the inverse is calculated instead of the mean. Its job is to set and get 
+## the value of the matrix then set and get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 m <- NULL
